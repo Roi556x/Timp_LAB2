@@ -26,9 +26,9 @@ int main(int argc, char **argv)
 {
     locale loc("ru_RU.UTF-8");
     locale::global(loc);
-    check ("CAR","0");
-    check ("CAR","");
-    check ("mahina", "7");
-    check("ma    h i n a","7");
+    check ("GAME","0");
+    check ("GAME","");
+    check ("igra", "7");
+    check("i g ra","7");
     check("123","4");
 }
