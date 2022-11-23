@@ -29,9 +29,9 @@ int main()
 {
 locale loc("ru_RU.UTF-8");
 locale::global(loc);
-check(L"МАШИНА",L"ГРАНТА");
-check(L"ГРАНТА",L"");
-check(L"ГРАНТА",L"МАШИНА666");
-check(L"Г Р А Н Т А",L"МАШИНА");
-check(L"666",L"МАШИНА");
+check(L"ИГРА",L"ШУТЕР");
+check(L"ШУТЕР",L"");
+check(L"ШУТЕР",L"ИГРА123");
+check(L"ШУ Т ЕР",L"ИГРА");
+check(L"123",L"ИГРА");
 }
